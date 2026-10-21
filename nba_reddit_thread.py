@@ -67,7 +67,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--allow-nonfinal",
-        action="store_false",
+        action="store_true",
         help="Generate output even when the NBA feed does not mark the game final.",
     )
     parser.add_argument(
